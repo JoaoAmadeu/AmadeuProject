@@ -5,22 +5,22 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638192502569890724
-    m_Hash: 341610096
+      ticks: 638193629285633446
+    m_Hash: 3741711416
   m_LockFileStatus:
     m_FilePath: C:/AmadeuProject/AmadeuProject/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638192502569920710
-    m_Hash: 2720104804
+      ticks: 638193629500056116
+    m_Hash: 2904391821
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
 m_ProjectPath: C:/AmadeuProject/AmadeuProject/Packages
-m_EditorVersion: 2021.3.13f1 (9e7d58001ecf)
+m_EditorVersion: 2021.3.24f1 (cf10dcf7010d)
 m_ResolvedPackages:
 - packageId: com.unity.cinemachine@2.8.9
   testable: 0
@@ -182,12 +182,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 2.8.9
     nextVersion: 
-- packageId: com.unity.collab-proxy@1.17.6
+- packageId: com.unity.collab-proxy@2.0.3
   testable: 0
   isDirectDependency: 1
-  version: 1.17.6
+  version: 2.0.3
   source: 1
-  resolvedPath: C:\AmadeuProject\AmadeuProject\Library\PackageCache\com.unity.collab-proxy@1.17.6
+  resolvedPath: C:\AmadeuProject\AmadeuProject\Library\PackageCache\com.unity.collab-proxy@2.0.3
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Version Control
@@ -197,10 +197,9 @@ m_ResolvedPackages:
     url: 
   category: Editor
   type: asset
-  description: The Version Control package gives you the ability to use either Collaborate
-    or Plastic SCM for Unity (beta) in the Unity editor. To use Plastic SCM for Unity
-    (beta), a Plastic SCM subscription is required. Learn more about how you can
-    get started for free by visiting plasticscm.com.
+  description: The package gives you the ability to use Unity Version Control in
+    the Unity editor. To use Unity Version Control, a subscription is required. Learn
+    more about how you can get started for free by visiting plasticscm.com.
   status: 0
   errors: []
   versions:
@@ -272,35 +271,14 @@ m_ResolvedPackages:
     - 2.1.0-preview.5
     - 2.1.0-preview.6
     compatible:
-    - 1.17.6
-    - 1.17.7
-    - 2.0.0-preview.6
-    - 2.0.0-preview.8
-    - 2.0.0-preview.15
-    - 2.0.0-preview.17
-    - 2.0.0-preview.20
-    - 2.0.0-preview.21
-    - 2.0.0-preview.22
-    - 2.0.0
-    - 2.0.1
     - 2.0.3
     - 2.0.4
     - 2.1.0-preview.3
     - 2.1.0-preview.5
     - 2.1.0-preview.6
-    verified: 1.17.7
-  dependencies:
-  - name: com.unity.services.core
-    version: 1.0.1
-  resolvedDependencies:
-  - name: com.unity.services.core
-    version: 1.5.2
-  - name: com.unity.modules.unitywebrequest
-    version: 1.0.0
-  - name: com.unity.nuget.newtonsoft-json
-    version: 3.0.2
-  - name: com.unity.modules.androidjni
-    version: 1.0.0
+    verified: 2.0.4
+  dependencies: []
+  resolvedDependencies: []
   keywords:
   - backup
   - cloud
@@ -308,6 +286,7 @@ m_ResolvedPackages:
   - collaborate
   - collaboration
   - control
+  - devops
   - plastic
   - plasticscm
   - source
@@ -325,16 +304,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638009928240000000
-  documentationUrl: 
+  datePublishedTicks: 638158826940000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.collab-proxy@2.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.cloud.collaborate.git
-    revision: 3744f24b80468ef1336fbc234c93625c4a6287b0
+    revision: c189c3bb7a025aa19e1f0ab8851a09a34ff94016
     path: 
   unityLifecycle:
-    version: 1.17.6
+    version: 2.0.3
     nextVersion: 
 - packageId: com.unity.feature.2d@1.0.0
   testable: 0
@@ -381,9 +360,9 @@ m_ResolvedPackages:
     version: default
   resolvedDependencies:
   - name: com.unity.2d.animation
-    version: 7.0.8
+    version: 7.0.10
   - name: com.unity.2d.common
-    version: 6.0.5
+    version: 6.0.6
   - name: com.unity.2d.sprite
     version: 1.0.0
   - name: com.unity.mathematics
@@ -403,11 +382,11 @@ m_ResolvedPackages:
   - name: com.unity.modules.animation
     version: 1.0.0
   - name: com.unity.2d.pixel-perfect
-    version: 5.0.1
+    version: 5.0.3
   - name: com.unity.2d.psdimporter
-    version: 6.0.6
+    version: 6.0.7
   - name: com.unity.2d.spriteshape
-    version: 7.0.6
+    version: 7.0.7
   - name: com.unity.2d.path
     version: 5.0.2
   - name: com.unity.modules.physics2d
@@ -415,7 +394,7 @@ m_ResolvedPackages:
   - name: com.unity.2d.tilemap
     version: 1.0.0
   - name: com.unity.2d.tilemap.extras
-    version: 2.2.3
+    version: 2.2.5
   - name: com.unity.modules.tilemap
     version: 1.0.0
   - name: com.unity.ugui
@@ -442,12 +421,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-- packageId: com.unity.ide.rider@3.0.15
+- packageId: com.unity.ide.rider@3.0.20
   testable: 0
   isDirectDependency: 1
-  version: 3.0.15
+  version: 3.0.20
   source: 1
-  resolvedPath: C:\AmadeuProject\AmadeuProject\Library\PackageCache\com.unity.ide.rider@3.0.15
+  resolvedPath: C:\AmadeuProject\AmadeuProject\Library\PackageCache\com.unity.ide.rider@3.0.20
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -501,10 +480,6 @@ m_ResolvedPackages:
     - 3.0.20
     - 3.0.21
     compatible:
-    - 3.0.15
-    - 3.0.16
-    - 3.0.17
-    - 3.0.18
     - 3.0.20
     - 3.0.21
     verified: 3.0.21
@@ -525,23 +500,23 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 637914298700000000
-  documentationUrl: 
+  datePublishedTicks: 638173205930000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.rider@3.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git
-    revision: b61ff0378932fdf03b5891e09c91728337de674c
+    revision: b0b5d281f6e3a1b7e7c73939f5ed03dc0668bcc1
     path: 
   unityLifecycle:
-    version: 3.0.15
+    version: 3.0.20
     nextVersion: 
-- packageId: com.unity.ide.visualstudio@2.0.16
+- packageId: com.unity.ide.visualstudio@2.0.18
   testable: 0
   isDirectDependency: 1
-  version: 2.0.16
+  version: 2.0.18
   source: 1
-  resolvedPath: C:\AmadeuProject\AmadeuProject\Library\PackageCache\com.unity.ide.visualstudio@2.0.16
+  resolvedPath: C:\AmadeuProject\AmadeuProject\Library\PackageCache\com.unity.ide.visualstudio@2.0.18
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -580,8 +555,6 @@ m_ResolvedPackages:
     - 2.0.17
     - 2.0.18
     compatible:
-    - 2.0.16
-    - 2.0.17
     - 2.0.18
     verified: 2.0.18
   dependencies:
@@ -607,16 +580,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 637914298680000000
-  documentationUrl: 
+  datePublishedTicks: 638173205920000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.visualstudio@2.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.visualstudio.git
-    revision: c01855ef6461b821ab0226135e96a4ee86de96be
+    revision: 9d3c07127cbe1916b8abbfd18f71fb8d9df8008c
     path: 
   unityLifecycle:
-    version: 2.0.16
+    version: 2.0.18
     nextVersion: 
 - packageId: com.unity.ide.vscode@1.2.5
   testable: 0
@@ -680,12 +653,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.2.5
     nextVersion: 
-- packageId: com.unity.inputsystem@1.4.4
+- packageId: com.unity.inputsystem@1.5.1
   testable: 0
   isDirectDependency: 1
-  version: 1.4.4
+  version: 1.5.1
   source: 1
-  resolvedPath: C:\AmadeuProject\AmadeuProject\Library\PackageCache\com.unity.inputsystem@1.4.4
+  resolvedPath: C:\AmadeuProject\AmadeuProject\Library\PackageCache\com.unity.inputsystem@1.5.1
   assetPath: Packages/com.unity.inputsystem
   name: com.unity.inputsystem
   displayName: Input System
@@ -740,11 +713,8 @@ m_ResolvedPackages:
     - 1.5.0
     - 1.5.1
     compatible:
-    - 1.4.3
-    - 1.4.4
-    - 1.5.0
     - 1.5.1
-    verified: 1.4.4
+    verified: 1.5.1
   dependencies:
   - name: com.unity.modules.uielements
     version: 1.0.0
@@ -778,16 +748,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638030660210000000
-  documentationUrl: 
+  datePublishedTicks: 638152610980000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.inputsystem@1.5/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.com/Unity-Technologies/InputSystem.git
-    revision: 59db7b7bcc31bad254947e3189e6ec125f67e3e7
+    revision: 3062b2c3402b5f7f435d79acbd6011a621bfeb3e
     path: 
   unityLifecycle:
-    version: 1.4.3
+    version: 1.5.1
     nextVersion: 
 - packageId: com.unity.test-framework@1.1.31
   testable: 0
@@ -1295,12 +1265,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-- packageId: com.unity.visualscripting@1.7.8
+- packageId: com.unity.visualscripting@1.8.0
   testable: 0
   isDirectDependency: 1
-  version: 1.7.8
+  version: 1.8.0
   source: 1
-  resolvedPath: C:\AmadeuProject\AmadeuProject\Library\PackageCache\com.unity.visualscripting@1.7.8
+  resolvedPath: C:\AmadeuProject\AmadeuProject\Library\PackageCache\com.unity.visualscripting@1.8.0
   assetPath: Packages/com.unity.visualscripting
   name: com.unity.visualscripting
   displayName: Visual Scripting
@@ -1344,9 +1314,8 @@ m_ResolvedPackages:
     - 1.8.0-pre.1
     - 1.8.0
     compatible:
-    - 1.7.8
     - 1.8.0
-    verified: 1.7.8
+    verified: 1.8.0
   dependencies:
   - name: com.unity.ugui
     version: 1.0.0
@@ -1372,16 +1341,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637878097330000000
+  datePublishedTicks: 638060044680000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.visualscripting.git
-    revision: 775a560e6602f51ff05aca02264f8bed4d415fd3
+    revision: 0de66378b19e990494d98f39ecc2b6aa5ac65351
     path: 
   unityLifecycle:
-    version: 1.7.8
+    version: 1.8.0
     nextVersion: 
 - packageId: com.unity.modules.ai@1.0.0
   testable: 0
@@ -3217,12 +3186,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.6
     nextVersion: 
-- packageId: com.unity.2d.animation@7.0.8
+- packageId: com.unity.2d.animation@7.0.10
   testable: 0
   isDirectDependency: 0
-  version: 7.0.8
+  version: 7.0.10
   source: 1
-  resolvedPath: C:\AmadeuProject\AmadeuProject\Library\PackageCache\com.unity.2d.animation@7.0.8
+  resolvedPath: C:\AmadeuProject\AmadeuProject\Library\PackageCache\com.unity.2d.animation@7.0.10
   assetPath: Packages/com.unity.2d.animation
   name: com.unity.2d.animation
   displayName: 2D Animation
@@ -3351,13 +3320,11 @@ m_ResolvedPackages:
     - 10.0.0
     - 10.0.1
     compatible:
-    - 7.0.8
-    - 7.0.9
     - 7.0.10
     verified: 7.0.10
   dependencies:
   - name: com.unity.2d.common
-    version: 6.0.5
+    version: 6.0.6
   - name: com.unity.2d.sprite
     version: 1.0.0
   - name: com.unity.modules.animation
@@ -3366,7 +3333,7 @@ m_ResolvedPackages:
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.2d.common
-    version: 6.0.5
+    version: 6.0.6
   - name: com.unity.2d.sprite
     version: 1.0.0
   - name: com.unity.mathematics
@@ -3398,23 +3365,23 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 637989323200000000
-  documentationUrl: 
+  datePublishedTicks: 638140403120000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.animation@7.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: d1ad42baef5a9bf44369c855eb89f86d6cd3c744
+    revision: 2dba3153b5c4ffa75993dfca0bd0df8cbc28809c
     path: 
   unityLifecycle:
-    version: 7.0.8
+    version: 7.0.10
     nextVersion: 
-- packageId: com.unity.2d.pixel-perfect@5.0.1
+- packageId: com.unity.2d.pixel-perfect@5.0.3
   testable: 0
   isDirectDependency: 0
-  version: 5.0.1
+  version: 5.0.3
   source: 1
-  resolvedPath: C:\AmadeuProject\AmadeuProject\Library\PackageCache\com.unity.2d.pixel-perfect@5.0.1
+  resolvedPath: C:\AmadeuProject\AmadeuProject\Library\PackageCache\com.unity.2d.pixel-perfect@5.0.3
   assetPath: Packages/com.unity.2d.pixel-perfect
   name: com.unity.2d.pixel-perfect
   displayName: 2D Pixel Perfect
@@ -3456,8 +3423,6 @@ m_ResolvedPackages:
     - 5.0.2
     - 5.0.3
     compatible:
-    - 5.0.1
-    - 5.0.2
     - 5.0.3
     verified: 5.0.3
   dependencies: []
@@ -3477,23 +3442,23 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637637493430000000
+  datePublishedTicks: 638023910590000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: 404f29a83b5666c45c2386a031f1f653fc6fd00d
+    revision: 6dea8ac5bd6953acd64f1ac9d470912954b0c015
     path: 
   unityLifecycle:
-    version: 5.0.1
+    version: 5.0.3
     nextVersion: 
-- packageId: com.unity.2d.psdimporter@6.0.6
+- packageId: com.unity.2d.psdimporter@6.0.7
   testable: 0
   isDirectDependency: 0
-  version: 6.0.6
+  version: 6.0.7
   source: 1
-  resolvedPath: C:\AmadeuProject\AmadeuProject\Library\PackageCache\com.unity.2d.psdimporter@6.0.6
+  resolvedPath: C:\AmadeuProject\AmadeuProject\Library\PackageCache\com.unity.2d.psdimporter@6.0.7
   assetPath: Packages/com.unity.2d.psdimporter
   name: com.unity.2d.psdimporter
   displayName: 2D PSD Importer
@@ -3582,21 +3547,20 @@ m_ResolvedPackages:
     - 9.0.0-pre.2
     - 9.0.0
     compatible:
-    - 6.0.6
     - 6.0.7
     verified: 6.0.7
   dependencies:
   - name: com.unity.2d.animation
-    version: 7.0.8
+    version: 7.0.9
   - name: com.unity.2d.common
-    version: 6.0.5
+    version: 6.0.6
   - name: com.unity.2d.sprite
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.2d.animation
-    version: 7.0.8
+    version: 7.0.10
   - name: com.unity.2d.common
-    version: 6.0.5
+    version: 6.0.6
   - name: com.unity.2d.sprite
     version: 1.0.0
   - name: com.unity.mathematics
@@ -3629,16 +3593,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 637989323240000000
-  documentationUrl: 
+  datePublishedTicks: 638067887380000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.psdimporter@6.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: d1ad42baef5a9bf44369c855eb89f86d6cd3c744
+    revision: 911204bb63dcf2da80b6063d54c4ec8737ad13dc
     path: 
   unityLifecycle:
-    version: 6.0.6
+    version: 6.0.7
     nextVersion: 
 - packageId: com.unity.2d.sprite@1.0.0
   testable: 0
@@ -3692,12 +3656,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-- packageId: com.unity.2d.spriteshape@7.0.6
+- packageId: com.unity.2d.spriteshape@7.0.7
   testable: 0
   isDirectDependency: 0
-  version: 7.0.6
+  version: 7.0.7
   source: 1
-  resolvedPath: C:\AmadeuProject\AmadeuProject\Library\PackageCache\com.unity.2d.spriteshape@7.0.6
+  resolvedPath: C:\AmadeuProject\AmadeuProject\Library\PackageCache\com.unity.2d.spriteshape@7.0.7
   assetPath: Packages/com.unity.2d.spriteshape
   name: com.unity.2d.spriteshape
   displayName: 2D SpriteShape
@@ -3795,14 +3759,13 @@ m_ResolvedPackages:
     - 10.0.0-pre.2
     - 10.0.0
     compatible:
-    - 7.0.6
     - 7.0.7
     verified: 7.0.7
   dependencies:
   - name: com.unity.mathematics
     version: 1.1.0
   - name: com.unity.2d.common
-    version: 6.0.4
+    version: 6.0.6
   - name: com.unity.2d.path
     version: 5.0.2
   - name: com.unity.modules.physics2d
@@ -3811,7 +3774,7 @@ m_ResolvedPackages:
   - name: com.unity.mathematics
     version: 1.2.6
   - name: com.unity.2d.common
-    version: 6.0.5
+    version: 6.0.6
   - name: com.unity.2d.sprite
     version: 1.0.0
   - name: com.unity.modules.uielements
@@ -3847,16 +3810,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 637958913420000000
-  documentationUrl: 
+  datePublishedTicks: 638140403060000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.spriteshape@7.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: 6b783c5dfb5a72d73e2b0a70d1caf4a367c58805
+    revision: 2dba3153b5c4ffa75993dfca0bd0df8cbc28809c
     path: 
   unityLifecycle:
-    version: 7.0.6
+    version: 7.0.7
     nextVersion: 
 - packageId: com.unity.2d.tilemap@1.0.0
   testable: 0
@@ -3909,12 +3872,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-- packageId: com.unity.2d.tilemap.extras@2.2.3
+- packageId: com.unity.2d.tilemap.extras@2.2.5
   testable: 0
   isDirectDependency: 0
-  version: 2.2.3
+  version: 2.2.5
   source: 1
-  resolvedPath: C:\AmadeuProject\AmadeuProject\Library\PackageCache\com.unity.2d.tilemap.extras@2.2.3
+  resolvedPath: C:\AmadeuProject\AmadeuProject\Library\PackageCache\com.unity.2d.tilemap.extras@2.2.5
   assetPath: Packages/com.unity.2d.tilemap.extras
   name: com.unity.2d.tilemap.extras
   displayName: 2D Tilemap Extras
@@ -3974,8 +3937,6 @@ m_ResolvedPackages:
     - 4.0.0-pre.3
     - 4.0.0
     compatible:
-    - 2.2.3
-    - 2.2.4
     - 2.2.5
     verified: 2.2.5
   dependencies:
@@ -4014,105 +3975,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 637892785880000000
-  documentationUrl: 
+  datePublishedTicks: 638140403150000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.tilemap.extras@2.2/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.com/Unity-Technologies/2d-extras.git
-    revision: 23a879f6458e28d4082f486e6c2375ef4c281145
+    revision: 0c2229262e21f917bff8c9669b96e2a3147428dd
     path: 
   unityLifecycle:
-    version: 2.2.3
-    nextVersion: 
-- packageId: com.unity.services.core@1.5.2
-  testable: 0
-  isDirectDependency: 0
-  version: 1.5.2
-  source: 1
-  resolvedPath: C:\AmadeuProject\AmadeuProject\Library\PackageCache\com.unity.services.core@1.5.2
-  assetPath: Packages/com.unity.services.core
-  name: com.unity.services.core
-  displayName: Services Core
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: asset
-  description: 'This package defines common components used by multiple Game Service
-    packages.
-
-    These are standardized and aim to unify the overall experience
-    of working with Game Services SDK.'
-  status: 0
-  errors: []
-  versions:
-    all:
-    - 1.0.1
-    - 1.1.0-pre.7
-    - 1.1.0-pre.8
-    - 1.1.0-pre.9
-    - 1.1.0-pre.10
-    - 1.1.0-pre.11
-    - 1.1.0-pre.41
-    - 1.1.0-pre.69
-    - 1.2.0
-    - 1.3.1
-    - 1.3.2
-    - 1.4.0
-    - 1.4.1
-    - 1.4.2
-    - 1.4.3
-    - 1.5.2
-    - 1.6.0
-    - 1.7.0
-    - 1.7.1
-    - 1.8.1
-    - 1.8.2
-    compatible:
-    - 1.5.2
-    - 1.6.0
-    - 1.7.0
-    - 1.7.1
-    - 1.8.1
-    - 1.8.2
-    verified: 1.5.2
-  dependencies:
-  - name: com.unity.modules.unitywebrequest
-    version: 1.0.0
-  - name: com.unity.nuget.newtonsoft-json
-    version: 3.0.2
-  - name: com.unity.modules.androidjni
-    version: 1.0.0
-  resolvedDependencies:
-  - name: com.unity.modules.unitywebrequest
-    version: 1.0.0
-  - name: com.unity.nuget.newtonsoft-json
-    version: 3.0.2
-  - name: com.unity.modules.androidjni
-    version: 1.0.0
-  keywords: []
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 0
-  isAssetStorePackage: 0
-  datePublishedTicks: 638018550440000000
-  documentationUrl: 
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.cds.internal.unity3d.com/unity/operate-services-sdk.git
-    revision: e040465b79d519da3eae1f3ee97816020574dd5e
-    path: 
-  unityLifecycle:
-    version: 1.5.2
+    version: 2.2.5
     nextVersion: 
 - packageId: com.unity.mathematics@1.2.6
   testable: 0
@@ -4180,12 +4052,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.2.6
     nextVersion: 
-- packageId: com.unity.2d.common@6.0.5
+- packageId: com.unity.2d.common@6.0.6
   testable: 0
   isDirectDependency: 0
-  version: 6.0.5
+  version: 6.0.6
   source: 1
-  resolvedPath: C:\AmadeuProject\AmadeuProject\Library\PackageCache\com.unity.2d.common@6.0.5
+  resolvedPath: C:\AmadeuProject\AmadeuProject\Library\PackageCache\com.unity.2d.common@6.0.6
   assetPath: Packages/com.unity.2d.common
   name: com.unity.2d.common
   displayName: 2D Common
@@ -4250,7 +4122,6 @@ m_ResolvedPackages:
     - 9.0.0-pre.2
     - 9.0.0
     compatible:
-    - 6.0.5
     - 6.0.6
     verified: 6.0.6
   dependencies:
@@ -4291,16 +4162,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 637989323140000000
+  datePublishedTicks: 638035874770000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: d1ad42baef5a9bf44369c855eb89f86d6cd3c744
+    revision: aebc9b022b1d3ecdcc734e0ee8f139df3f3fe3dd
     path: 
   unityLifecycle:
-    version: 6.0.5
+    version: 6.0.6
     nextVersion: 
 - packageId: com.unity.2d.path@5.0.2
   testable: 0
@@ -4372,81 +4243,6 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 5.0.2
-    nextVersion: 
-- packageId: com.unity.nuget.newtonsoft-json@3.0.2
-  testable: 0
-  isDirectDependency: 0
-  version: 3.0.2
-  source: 1
-  resolvedPath: C:\AmadeuProject\AmadeuProject\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2
-  assetPath: Packages/com.unity.nuget.newtonsoft-json
-  name: com.unity.nuget.newtonsoft-json
-  displayName: Newtonsoft Json
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: library
-  description: 'Newtonsoft Json for use in Unity projects and Unity packages. Currently
-    synced to version 13.0.1.
-
-
-    This package is used for advanced json serialization
-    and deserialization. Most Unity users will be better suited using the existing
-    json tools built into Unity.
-
-    To avoid assembly clashes, please use this
-    package if you intend to use Newtonsoft Json.'
-  status: 0
-  errors: []
-  versions:
-    all:
-    - 1.0.0-preview.2
-    - 1.0.0-preview.3
-    - 1.0.0-preview.4
-    - 1.0.1-preview.1
-    - 1.1.2
-    - 2.0.0-preview
-    - 2.0.0-preview.1
-    - 2.0.0-preview.2
-    - 2.0.0
-    - 2.0.1-preview.1
-    - 2.0.2
-    - 3.0.1
-    - 3.0.2
-    - 3.1.0
-    - 3.2.0
-    - 3.2.1
-    compatible:
-    - 3.0.2
-    - 3.1.0
-    - 3.2.0
-    - 3.2.1
-    verified: 3.0.2
-  dependencies: []
-  resolvedDependencies: []
-  keywords: []
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 637846828220000000
-  documentationUrl: 
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.cds.internal.unity3d.com/unity/com.unity.nuget.newtonsoft-json.git
-    revision: 8f66870a71ad3f2cdd46330b5c482dfd138ffc64
-    path: 
-  unityLifecycle:
-    version: 3.0.2
     nextVersion: 
 - packageId: com.unity.burst@1.6.6
   testable: 0

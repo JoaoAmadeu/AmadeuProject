@@ -1,7 +1,6 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
+/// <summary>
+/// Place where clothing can attach to, in the body
+/// </summary>
 public enum BodyPart
 {
     None = 0,
