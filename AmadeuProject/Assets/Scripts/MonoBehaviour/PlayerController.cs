@@ -43,7 +43,7 @@ public class PlayerController : MonoBehaviour
     /// <param name="interactive"></param>
     private void InteractionFound (Interactive interactive)
     {
-        if (interactive!= null) 
+        if (interactive == null) 
         {
             Debug.Log($"Interaction with null interactive at {gameObject.name}");
             return;

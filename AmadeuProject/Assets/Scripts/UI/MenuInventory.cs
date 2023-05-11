@@ -18,6 +18,8 @@ public class MenuInventory : MonoBehaviour
 
     private ItemButton[] itemButtons;
 
+    private new AudioSource audio;
+
     /// <summary>
     /// Is this UI visible to the user?
     /// </summary>
@@ -30,6 +32,12 @@ public class MenuInventory : MonoBehaviour
 
     private void GetButons ()
     {
+        if (itemButtons == null)
+        {
+            itemButtons = itemsGrid.GetComponentsInChildren<ItemButton>();
+            return;
+        }
+
         if (itemsGrid && itemButtons.Length == 0)
         {
             itemButtons = itemsGrid.GetComponentsInChildren<ItemButton>();

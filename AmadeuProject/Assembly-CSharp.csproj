@@ -68,14 +68,15 @@
     <Compile Include="Assets\Scripts\MonoBehaviour\PlayerController.cs" />
     <Compile Include="Assets\Scripts\MonoBehaviour\Interactive.cs" />
     <Compile Include="Assets\Scripts\MonoBehaviour\Inventory.cs" />
+    <Compile Include="Assets\Scripts\Clothing.cs" />
     <Compile Include="Assets\Scripts\Scriptables\ItemAsset.cs" />
     <Compile Include="Assets\Scripts\Scriptables\DialogAsset.cs" />
+    <Compile Include="Assets\Scripts\Scriptables\ItemConditional.cs" />
     <Compile Include="Assets\Scripts\UI\TextDisplayer.cs" />
     <Compile Include="Assets\Scripts\Enum\Direction.cs" />
     <Compile Include="Assets\Scripts\UI\MenuInventory.cs" />
-    <Compile Include="Assets\Scripts\Enum\BodyPart.cs" />
-    <Compile Include="Assets\Scripts\Scriptables\ItemConditional.cs" />
     <Compile Include="Assets\Scripts\Enum\PermissionStatus.cs" />
+    <Compile Include="Assets\Scripts\Enum\BodyPart.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

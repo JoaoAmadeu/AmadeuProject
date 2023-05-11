@@ -30,7 +30,7 @@ public class InteractiveItem : Interactive
             quantity = value;
             if (quantity <= 0) 
             {
-                Destroy(gameObject);
+                Destroy(gameObject, 0.1f);
             }
         }
     }
@@ -59,8 +59,8 @@ public class InteractiveItem : Interactive
         {
             if (Quantity > 0)
             {
-                Quantity--;
                 inventory.AddItem(item);
+                Quantity--;
             }
         }
         else if (interactor.transform.parent != null && 
@@ -68,8 +68,8 @@ public class InteractiveItem : Interactive
         {
             if (Quantity > 0)
             {
-                Quantity--;
                 inventory.AddItem(item);
+                Quantity--;
             }
         }
     }

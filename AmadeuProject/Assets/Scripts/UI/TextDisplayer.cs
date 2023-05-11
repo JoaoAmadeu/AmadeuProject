@@ -22,6 +22,14 @@ public class TextDisplayer : MonoBehaviour
 
     private PermissionStatus permission;
 
+    private new AudioSource audio;
+
+    [SerializeField, Tooltip("Sfx that will play while writing the text")]
+    private AudioClip textSfx;
+
+    [SerializeField, Tooltip("Sfx that will play when user send an input")]
+    private AudioClip nextSfx;
+
     /// <summary>
     /// UI item that will display the text
     /// </summary>
@@ -49,6 +57,11 @@ public class TextDisplayer : MonoBehaviour
     /// </summary>
     public UnityEvent onEndDisplay;
 
+    private void Awake()
+    {
+        audio = GetComponent<AudioSource>();
+    }
+
     /// <summary>
     /// Display a dialog, with the responsible of this query
     /// </summary>
@@ -61,16 +74,58 @@ public class TextDisplayer : MonoBehaviour
             currentDialog = dialog;
             currentAsker = asker;
             isDisplaying = true;
-            gameObject.SetActive(true);
+            Show();
             imageFeedback.enabled = false;
             permission = PermissionStatus.Undefined;
 
-            NextStep();
+            //NextStep();
+            StartCoroutine(DisplayRoutine(currentDialog.Talk.entryText));
+        }
+    }
+
+    public void Hide ()
+    {
+        for (int i = 0; i < transform.childCount; i++)
+        {
+            transform.GetChild(i).gameObject.SetActive(false);
+        }
+    }
+
+    public void Show ()
+    {
+        for (int i = 0; i < transform.childCount; i++)
+        {
+            transform.GetChild(i).gameObject.SetActive(true);
         }
     }
 
     public void NextStep ()
     {
+        // No text found
+        if (isWriting || !isDisplaying)
+        {
+            return;
+        }
+
+        currentDialog.Talk.onNextStep?.Invoke();
+
+        audio.PlayOneShot(nextSfx);
+        onEndDisplay.Invoke();
+        Hide();
+        isDisplaying = false;
+
+        
+
+        if (currentDialog.Talk.conditional != null)
+        {
+
+        }
+        else
+        {
+            
+        }
+
+return;
         // decide if we start showing the next text, if we close or if we open the next dialog
         switch (permission)
         {
@@ -174,6 +229,10 @@ public class TextDisplayer : MonoBehaviour
     {
         uiText.text = "";
         isWriting = true;
+        audio.clip = textSfx;
+        audio.Play();
+        // audio delay to start
+        yield return new WaitForSeconds(0.5f);
 
         for (int i = 0; i < text.Length; i++)
         {
@@ -182,6 +241,7 @@ public class TextDisplayer : MonoBehaviour
         }
 
         yield return null;
+        audio.Stop();
         isWriting = false;
         StartCoroutine(WaitPlayerRoutine());
     }

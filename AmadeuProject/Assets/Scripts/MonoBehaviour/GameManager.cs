@@ -20,8 +20,16 @@ public class GameManager : MonoBehaviour
     [SerializeField, Tooltip("UI that will display any text to the player.")]
     private TextDisplayer textDisplayer;
 
+    [SerializeField]
+    private DialogAsset shopkeeperDialog;
+
+    [SerializeField]
+    private GameObject shoopingMenu;
+
     private void Start()
     {
+        shopkeeperDialog.Talk.onNextStep.AddListener (() => shoopingMenu.SetActive(true));
+
         if (inventoryButton != null)
         {
             inventoryButton.onClick.AddListener(TogglePlayerInventory);
@@ -30,9 +38,10 @@ public class GameManager : MonoBehaviour
         {
             Debug.LogWarning("Inventory HUD button not found");
         }
-        
 
-        textDisplayer.gameObject.SetActive(false);
+
+        textDisplayer.Hide();
+        
         TogglePlayerInventory(false);
     }
 

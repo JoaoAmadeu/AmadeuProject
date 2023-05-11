@@ -25,6 +25,9 @@ public class Pawn : MonoBehaviour
 
     private CircleCollider2D circleCollider;
 
+    [SerializeField, Tooltip("Wearables to addorn the player")]
+    private Clothing clothing;
+
     /// <summary>
     /// Float value used in the animator, to point the direction the pawn is facing.
     /// </summary>
@@ -51,7 +54,7 @@ public class Pawn : MonoBehaviour
         {
             Debug.LogWarning($"Interactor is null at {gameObject.name}");
         }
-
+        
         bool dontMove = false;
         switch (driver.Direction)
         {
@@ -79,6 +82,10 @@ public class Pawn : MonoBehaviour
 
         animator.SetBool("Walking", driver.IsMoving);
         animator.SetFloat("FaceDirection", animatorDirection);
+        if (clothing != null)
+        {
+            clothing.UpdateAnimations(driver.IsMoving, animatorDirection);
+        }
         if (!dontMove) 
         {
             Vector2 origin = new Vector2(transform.position.x, transform.position.y) + circleCollider.offset;
